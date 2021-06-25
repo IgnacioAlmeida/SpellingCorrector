@@ -80,9 +80,9 @@ public class TrieTest {
     @Test
     @DisplayName("Equals Testing")
     public void testEquals(){
-        add("cares");
-        add("caress");
-        add("baboon");
+//        add("cares");
+//        add("caress");
+//        add("baboon");
         studentTrie.add("car");
         assertEquals(studentTrie, studentTrie, "Trie found not equal to itself");
         assertNotEquals(null, studentTrie, "Trie equal to null");
